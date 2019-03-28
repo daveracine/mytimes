@@ -12,7 +12,17 @@
   text-align: center;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
 
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
 
 /* Header */
 
@@ -65,15 +75,13 @@ nav span {
   margin-bottom: 78px;
   margin-left: auto;
   padding-top: 116px;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-
 }
 
+/*
 div {
   border: 1px solid black;
 }
+*/
 
 .column {
   display: flex;
